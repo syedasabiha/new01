@@ -1,0 +1,58 @@
+
+    body
+    {
+       background-image: url('https://cdn.inc42.com/wp-content/uploads/2019/04/movie-ticketing-1024x768.jpg');
+       background-size: 850px;
+        font-family: 'Arial';
+    }
+    .login{
+        width: 382px;
+        margin: auto;
+        margin: 50 0 0 500px;
+        padding: 80px;
+    }
+    h2{
+        text-align: center;
+        color:black;
+        font-size: 30px;
+    }
+    label{
+        color:black;
+        font-size: 17px;
+    }
+    #Uname{
+        width: 500px;
+        height: 50px;
+        border: none;
+        color:black;
+        font-size: 17px;
+        border-radius: 3px;
+        padding-left: 8px;
+    }
+    #Pass{
+        width: 500px;
+        height: 50px;
+        border: none;
+        color: black;
+        font-size: 17px;
+        border-radius: 3px;
+        padding-left: 8px;
+    }
+    #log{
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 17px;
+        padding-left: 7px;
+        color: blue;
+    }
+    span{
+        color: white;
+        font-size: 12px;
+    }
+    a{
+        float: right;
+        background-color: white;
+        color: blue;
+        font-size: 12px;
+    }

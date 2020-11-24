@@ -1,0 +1,62 @@
+
+body {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+	margin: 0;
+}
+.movie-container {
+	margin: 20px 0;
+}
+.container {
+	perspective: 1000px;
+	margin-bottom: 30px;
+}
+.seat {
+	background-color:black;
+	height:15px;
+	width: 15px;
+	margin:15px;
+	border-radius: 0px 0px 0 0;
+}
+.seat.selected {
+	background-color: yellow;
+}
+.seat.occupied {
+	background-color:blue;
+}
+.showcase {
+	background-color:white;
+	padding: 5px 10px;
+	border-radius: 6px;
+	color:gray;
+	display: flex;
+}
+.showcase li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.showcase li small {
+	margin-left: 2px;
+}
+.row {
+	display: flex;
+}
+.screen{
+	width: 100%;
+    height: 40px;
+    background: black;
+    color: white;
+    line-height: 20px;
+	font-size: 15px;
+}
+p.text {
+	margin: 5px 0;
+}
+p.text span {
+	color:red;
+}
